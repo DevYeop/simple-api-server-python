@@ -1,5 +1,5 @@
 import requests
-
+# TODO :: 나중에 여기서 플라스크 API 로컬 백엔드 주소로 바꿔서 테스트 ㄱㄱ~~
 # 요청할 URL
 url = "https://jsonplaceholder.typicode.com/posts/1"
 
