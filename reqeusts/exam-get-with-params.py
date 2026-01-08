@@ -5,7 +5,7 @@ import requests
 url = "https://jsonplaceholder.typicode.com/comments"
 
 # Query Parameter를 dict 형태로 정의
-# key=value → userId=1
+# key=value → userId=1 zz
 params = {
     "postId": 1
 }
