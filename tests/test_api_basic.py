@@ -35,6 +35,7 @@ def test_get_post_by_id():
     # dict 형태로 변환됨
     # ⭐⭐⭐ 이 한줄이 바로 역직렬화(deserialization) 다
     data = response.json()
+    print()
     print(data)
 
     # 5️⃣ 응답 타입 확인

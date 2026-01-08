@@ -4,14 +4,14 @@ import requests
 url = "https://jsonplaceholder.typicode.com/posts"
 
 # 서버로 보낼 데이터 (payload)
-payload = {
+post_data = {
     "title": "foo",
     "body": "bar",
     "userId": 1
 }
 
 # POST 요청 (json=payload → 자동으로 JSON 변환 + Content-Type 설정)
-response = requests.post(url, json=payload)
+response = requests.post(url, json=post_data)
 
 # 응답 상태 코드 출력
 print(response.status_code)   # 201
